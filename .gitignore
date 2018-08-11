@@ -1,0 +1,21 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+**/.mvn
+mvnw
+mvnw.cmd
+target
+**/target/
+.idea_modules/
+.DS_Store
+out/
+*.log
+/.settings/
+.cache
+**/.settings/
+**/logs/
+**/.classpath
+**/.project
+
