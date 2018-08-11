@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.study.atm</groupId>
-    <artifactId>wuliqing-test</artifactId>
+    <artifactId>zhapc-test</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>wuliqing-test</name>
+    <name>zhapc-test</name>
     <description>atm frontier project for Spring Boot</description>
 
     <parent>
@@ -179,13 +179,6 @@
         </dependency>
 
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>getui-nexus</id>
-            <url>http://mvn.gt.igexin.com/nexus/content/repositories/releases/</url>
-        </repository>
-    </repositories>
 
     <build>
         <plugins>
