@@ -1,12 +1,6 @@
 package main;
 
 
-import org.apache.commons.collections.CollectionUtils;
-
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.*;
-
 public class MainTest {
 
     public final String a;
@@ -27,12 +21,12 @@ public class MainTest {
     }
 
     public static void main(String[] args) {
-        Integer i = 123;
-        String abc = String.valueOf(i);
-        String a = abc.substring(0,1);
-        String b = abc.substring(1,2);
-        String c = abc.substring(2);
-        System.out.println(a + ":" + b + ":" + c);
+        int[] nums = new int[5];
+        nums[0] = 1;
+        int target = 2;
+        while (true){
+            twoSum(nums,target);
+        }
     }
 
 
@@ -45,4 +39,5 @@ public class MainTest {
 
         return new int[]{start,end};
     }
+
 }
